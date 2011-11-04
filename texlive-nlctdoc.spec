@@ -1,3 +1,9 @@
+# revision 18976
+# category Package
+# catalog-ctan /macros/latex/contrib/nlctdoc
+# catalog-date 2010-06-14 15:23:50 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-nlctdoc
 Version:	20100614
 Release:	1
@@ -38,6 +44,7 @@ those packages.
 %files
 %{_texmfdistdir}/tex/latex/nlctdoc/nlctdoc.cls
 %doc %{_texmfdistdir}/doc/latex/nlctdoc/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ those packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
