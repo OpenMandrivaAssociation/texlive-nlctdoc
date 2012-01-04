@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-nlctdoc
 Version:	20100614
-Release:	1
+Release:	2
 Summary:	Package documentation class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
