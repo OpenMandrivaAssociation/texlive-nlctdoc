@@ -1,12 +1,13 @@
-# revision 18976
+# revision 27116
 # category Package
 # catalog-ctan /macros/latex/contrib/nlctdoc
-# catalog-date 2010-06-14 15:23:50 +0200
+# catalog-date 2012-07-20 01:08:10 +0200
 # catalog-license lppl
-# catalog-version undef
+# catalog-version 1.02
 Name:		texlive-nlctdoc
-Version:	20100614
-Release:	2
+Epoch:		1
+Version:	1.02
+Release:	1
 Summary:	Package documentation class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
@@ -20,9 +21,9 @@ Requires(post):	texlive-kpathsea
 
 %description
 The class provides support for the documentation of the
-author's packages. This class is provided "as is" solely for
-the benefit of anyone who wants to compile the documentation of
-those packages.
+author's packages, using koma-script. This class is provided
+"as is" solely for the benefit of anyone who wants to compile
+the documentation of those packages.
 
 %post
     %{_sbindir}/texlive.post
