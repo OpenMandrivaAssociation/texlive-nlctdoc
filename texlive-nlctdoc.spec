@@ -1,12 +1,12 @@
-# revision 27116
+# revision 31933
 # category Package
 # catalog-ctan /macros/latex/contrib/nlctdoc
-# catalog-date 2012-07-20 01:08:10 +0200
+# catalog-date 2013-10-17 16:30:57 +0200
 # catalog-license lppl
-# catalog-version 1.02
+# catalog-version 1.03
 Name:		texlive-nlctdoc
 Epoch:		1
-Version:	1.02
+Version:	1.03
 Release:	1
 Summary:	Package documentation class
 Group:		Publishing
@@ -47,21 +47,3 @@ the documentation of those packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:1.02-1
-+ Revision: 812670
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100614-2
-+ Revision: 754349
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100614-1
-+ Revision: 719123
-- texlive-nlctdoc
-- texlive-nlctdoc
-- texlive-nlctdoc
-- texlive-nlctdoc
-
