@@ -1,13 +1,13 @@
-# revision 31933
+# revision 32705
 # category Package
 # catalog-ctan /macros/latex/contrib/nlctdoc
-# catalog-date 2013-10-17 16:30:57 +0200
+# catalog-date 2014-01-17 19:05:21 +0100
 # catalog-license lppl
-# catalog-version 1.03
+# catalog-version 1.04
 Name:		texlive-nlctdoc
 Epoch:		1
-Version:	1.03
-Release:	5
+Version:	1.04
+Release:	1
 Summary:	Package documentation class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
