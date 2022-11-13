@@ -1,19 +1,13 @@
-# revision 32705
-# category Package
-# catalog-ctan /macros/latex/contrib/nlctdoc
-# catalog-date 2014-01-17 19:05:21 +0100
-# catalog-license lppl
-# catalog-version 1.04
 Name:		texlive-nlctdoc
 Epoch:		1
-Version:	1.06
-Release:	3
+Version:	64708
+Release:	1
 Summary:	Package documentation class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nlctdoc.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nlctdoc.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nlctdoc.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nlctdoc.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,21 +20,21 @@ author's packages, using koma-script. This class is provided
 the documentation of those packages.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/nlctdoc/nlctdoc.cls
-%doc %{_texmfdistdir}/doc/latex/nlctdoc/README
+%{_texmfdistdir}/tex/latex/nlctdoc
+%doc %{_texmfdistdir}/doc/latex/nlctdoc
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
