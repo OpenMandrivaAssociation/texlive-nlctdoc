@@ -1,7 +1,7 @@
 Name:		texlive-nlctdoc
 Epoch:		1
-Version:	64708
-Release:	2
+Version:	67504
+Release:	1
 Summary:	Package documentation class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
