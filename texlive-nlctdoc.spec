@@ -4,7 +4,7 @@ Version:	68448
 Release:	1
 Summary:	Package documentation class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nlctdoc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nlctdoc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nlctdoc.doc.r%{version}.tar.xz
