@@ -1,6 +1,6 @@
 Name:		texlive-nlctdoc
 Epoch:		1
-Version:	68448
+Version:	72810
 Release:	1
 Summary:	Package documentation class
 Group:		Publishing
